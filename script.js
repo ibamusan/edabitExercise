@@ -6,5 +6,45 @@ function findPerimeterRectangle(height, width){
   return (2*x + 2*y);
 }
 
-findPerimeterRectangle(2,3);
+console.log(findPerimeterRectangle(2,3));
 
+// Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+
+function returnNextNumber(x){
+  return( x + 1);
+  
+
+}
+
+console.log(returnNextNumber(5));
+
+
+
+// There is a single operator in JavaScript, capable of providing the remainder of a division operation. 
+// Two numbers are passed as parameters. The first parameter divided by the second 
+// parameter will have a remainder, possibly zero. Return that value.
+
+
+function remainder(x,y){
+  z = x % y;
+
+  return(z);
+}
+
+console.log(remainder(3,4));
+
+
+// Write a function that takes the base and height of a triangle and return its area.
+
+function areaOfTriangle(x, y){
+  var height = x;
+  var base = y;
+  z = 0.5*height*base;
+  return(z)
+
+}
+
+console.log(areaOfTriangle(2,4));
+
+
+// Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
