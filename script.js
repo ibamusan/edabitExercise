@@ -48,3 +48,22 @@ console.log(areaOfTriangle(2,4));
 
 
 // Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+function lessThan100(x,y){
+  var z = x + y;
+  if(z < 100){
+    return true;
+  } else {
+    return false;
+  }
+
+}
+
+console.log(lessThan100(233,40));
+
+// Create a function that takes two numbers as arguments and return their sum.
+
+function sum(a, b){
+  return (a+b);
+}
+
+console.log(sum(45,5));
