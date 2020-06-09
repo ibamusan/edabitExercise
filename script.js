@@ -87,3 +87,13 @@ function findThirdEdge(side1, side2){
 }
 
 console.log(findThirdEdge(5,7));
+
+
+
+// Create a function that takes an array and returns the first element.
+
+function takeArray(arr){
+  return arr[0];
+}
+
+console.log(takeArray([23,45,67]));
