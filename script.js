@@ -67,3 +67,14 @@ function sum(a, b){
 }
 
 console.log(sum(45,5));
+
+
+
+//Write a function that takes an integer minutes and converts it to seconds.
+
+function convertMinutes(y){
+  //y is value in minutes
+  return (y * 60);
+}
+
+console.log(convertMinutes(5));
