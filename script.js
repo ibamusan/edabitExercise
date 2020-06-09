@@ -97,3 +97,19 @@ function takeArray(arr){
 }
 
 console.log(takeArray([23,45,67]));
+
+
+// Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far. 
+// A win receives 3 points, a draw 1 point and a loss 0 points.
+
+function calcPoints(x, y, z){
+  let A = x * 3;
+  let B = y * 1;
+  let C = z * 0
+
+  let sumPoints = A + B + C;
+  return sumPoints;
+}
+
+console.log(calcPoints(3,5,6));
+
