@@ -113,3 +113,20 @@ function calcPoints(x, y, z){
 
 console.log(calcPoints(3,5,6));
 
+
+// Make a function using the && operator.
+
+function testLogic(a,b){
+  if (a && b < 6){
+    return "hello friend";
+  }else {return "who are you"}
+}
+
+console.log(testLogic(5,3));
+
+
+function testLogic2(x,y){
+  console.log(x && y < 7)
+}
+
+testLogic2(3,5);
