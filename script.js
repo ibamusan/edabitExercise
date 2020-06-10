@@ -182,3 +182,15 @@ function isEmpty(s){
 }
 
 console.log(isEmpty("5"));
+
+
+// Write a function that takes two integers (hours, minutes) and converts them into seconds.
+
+function convert(hours, minutes){
+  let y = hours * 3600;
+  let z = minutes * 60;
+
+  return(y+z);
+}
+
+console.log(convert(2,10));
