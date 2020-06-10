@@ -159,3 +159,14 @@ function stringInt(str){
 }
 
 console.log(stringInt('100'));
+
+
+// Write a function that converts hours into seconds.
+
+function hourConverter(hour){
+  var seconds = hour * 3600;
+  return(seconds);
+
+}
+
+console.log(hourConverter(2));
