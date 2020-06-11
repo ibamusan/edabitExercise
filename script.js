@@ -208,3 +208,18 @@ function checkSum(a,b){
 }
 
 console.log(checkSum(45,7));
+
+// Create a function that takes an integer and returns true if it's divisible by 100, otherwise return false.
+
+function divisibilityCheck(num){
+  var x = num;
+  var y = 100;
+  let z = num % 100;
+  if (z === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(divisibilityCheck(1000));
