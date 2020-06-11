@@ -194,3 +194,17 @@ function convert(hours, minutes){
 }
 
 console.log(convert(2,10));
+
+
+// Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+
+function checkSum(a,b){
+   let x = a + b;
+  if (x < 100){
+    return true;
+  }else {
+    return false;
+  }
+}
+
+console.log(checkSum(45,7));
