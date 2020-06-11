@@ -251,3 +251,12 @@ function isNumEqual(num1,num2){
 }
 
 console.log(isNumEqual(7,5));
+
+// Create a function that takes an equation (e.g. "1+1"), and returns the answer.
+
+function takeQuestion(s){
+  let w = eval(s);
+  return w;
+}
+
+console.log(takeQuestion('3*5+2'));
