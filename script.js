@@ -239,3 +239,15 @@ function profitableGamble(prob,prize,pay){
 }
 
 console.log(profitableGamble(20,4,10));
+
+// Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+function isNumEqual(num1,num2){
+  if (num1 === num2){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(isNumEqual(7,5));
