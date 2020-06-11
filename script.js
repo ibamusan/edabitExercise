@@ -223,3 +223,19 @@ function divisibilityCheck(num){
 }
 
 console.log(divisibilityCheck(1000));
+
+// Create a function that takes in three arguments (prob, prize, pay) and returns true if prob * prize > pay; 
+// otherwise return false.
+// To illustrate, profitableGamble(0.2, 50, 9) should yield true, since the net profit is 1 (0.2 * 50 - 9), and 1 > 0.
+
+function profitableGamble(prob,prize,pay){
+  var c = prob * prize;
+  console.log(c);
+  if (c > pay){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(profitableGamble(20,4,10));
