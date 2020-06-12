@@ -285,4 +285,14 @@ function checkTernary(x){
 console.log(checkTernary(2<5));
 
 
+// Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise.
 
+function divideEvenly(Num1, Num2){
+  if ( Num1 % Num2 === 0){
+    return true;
+  }else {
+    return false;
+  }
+}
+
+console.log(divideEvenly(27,4));
