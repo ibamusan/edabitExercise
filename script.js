@@ -260,3 +260,22 @@ function takeQuestion(s){
 }
 
 console.log(takeQuestion('3*5+2'));
+
+// Create a function that takes two strings as arguments and return either true or false depending 
+// on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+
+function compString(word1, word2){
+  var g = word1.length;
+  var h = word2.length;
+  if(g === h){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(compString('hello', 'baby'));
+
+
+
+
