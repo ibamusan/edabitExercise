@@ -277,5 +277,12 @@ function compString(word1, word2){
 console.log(compString('hello', 'baby'));
 
 
+// Write a function that uses the ternary operator to return "yeah" if the condition is true, and "nope" otherwise.
+
+function checkTernary(x){
+  return(x ? "yeah" : "nope");
+}
+console.log(checkTernary(2<5));
+
 
 
