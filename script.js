@@ -307,3 +307,16 @@ function calcFPS(minutes, fps){
 }
 
 console.log(calcFPS(10, 25));
+
+
+// Implement a function that returns true if the parameters are equal, and false if they are different.
+
+function isConfirmation(spec1, spec2){
+  if(spec1 === spec2){
+    return true;
+  }else {
+    return false;
+  }
+}
+
+console.log(isConfirmation(2, '2'));
