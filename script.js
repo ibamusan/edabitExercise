@@ -296,3 +296,14 @@ function divideEvenly(Num1, Num2){
 }
 
 console.log(divideEvenly(27,4));
+
+
+// Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+function calcFPS(minutes, fps){
+  var fpsPerminutes = minutes * 60;
+  var numberFrames = fps * fpsPerminutes;
+  return numberFrames; 
+}
+
+console.log(calcFPS(10, 25));
