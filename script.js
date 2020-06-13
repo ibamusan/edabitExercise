@@ -367,3 +367,14 @@ function detectMiddle(txt){
 }
 
 console.log(detectMiddle('himani'));
+
+
+// Write a function that returns the length of a string. Make your function recursive.
+
+function retLenght(strg){
+  return strg.length;
+  retLenght();
+}
+//note recursive here means calling the function inside itself.
+console.log(retLenght('Apple'));
+
