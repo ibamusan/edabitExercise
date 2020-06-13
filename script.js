@@ -331,5 +331,19 @@ function lessThanEqualTo(number){
   }
 }
 
-
 console.log(lessThanEqualTo(-1));
+
+// Booleans can also be written as integers, where 1 = True and 0 = False. 
+// Make a function that returns the opposite of the boolean given.
+
+function checkBoolean(flipbool){
+    
+  if (flipbool == true){
+    return 0;
+  }else {
+    return 1;
+  } 
+  
+}
+
+console.log(checkBoolean(1));
