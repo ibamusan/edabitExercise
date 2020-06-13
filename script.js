@@ -320,3 +320,16 @@ function isConfirmation(spec1, spec2){
 }
 
 console.log(isConfirmation(2, '2'));
+
+// Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+function lessThanEqualTo(number){
+  if (number <= 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+
+console.log(lessThanEqualTo(-1));
