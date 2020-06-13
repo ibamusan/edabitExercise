@@ -347,3 +347,12 @@ function checkBoolean(flipbool){
 }
 
 console.log(checkBoolean(1));
+
+
+// Create a function that takes a word and returns the new word without including the first character.
+
+function returnNewWord(str){
+  return str.substring(1);
+}
+
+console.log(returnNewWord('John'));
