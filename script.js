@@ -356,3 +356,14 @@ function returnNewWord(str){
 }
 
 console.log(returnNewWord('John'));
+
+// Create a function that returns the middle character of the string.
+function detectMiddle(txt){
+  var y = txt.length;
+  var mnValue = y / 2;
+
+  return txt.charAt(mnValue - 1);
+
+}
+
+console.log(detectMiddle('himani'));
