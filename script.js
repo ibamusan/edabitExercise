@@ -422,3 +422,13 @@ function testType(num3){
 }
 
 console.log(testType(8));
+
+
+// Create a function that accepts an array and returns the last item in the array.
+
+function returnLast(arr3){
+  return arr3[arr3.length - 1];
+}
+
+console.log(returnLast(['dog', 'cat', 'sheep', 'horse']));
+
