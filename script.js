@@ -399,3 +399,12 @@ function arrayConcat(arr1, arr2){
 }
 
 console.log(arrayConcat([1,2,3], [4,5,6,7]));
+
+
+// Create a function that evaluates an equation.
+
+function equationEval(evaluate){
+  return eval(evaluate);
+}
+
+console.log(equationEval('3*5'));
