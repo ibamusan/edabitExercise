@@ -408,3 +408,17 @@ function equationEval(evaluate){
 }
 
 console.log(equationEval('3*5'));
+
+
+// Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers.
+
+function testType(num3){
+  var x1 = num3 % 2;
+  if (x1 === 0){
+    return 'even';
+  }else{
+    return 'odd';
+  }
+}
+
+console.log(testType(8));
