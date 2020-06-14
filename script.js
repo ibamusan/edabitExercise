@@ -378,3 +378,16 @@ function retLenght(strg){
 //note recursive here means calling the function inside itself.
 console.log(retLenght('Apple'));
 
+
+// Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+
+function divisibleByFive(int){
+  var y = int % 5
+  if (y === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(divisibleByFive(585));
