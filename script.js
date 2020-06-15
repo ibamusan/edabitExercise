@@ -443,3 +443,12 @@ function combStr(first,last){
   }
 
 console.log(combStr('goke','jide'));
+
+
+// Create a function that takes an array and a string as arguments and return the index of the string.
+
+function returnIndexOf(arr, str){
+  return arr.indexOf(str);
+}
+
+console.log(returnIndexOf([3,6,8,12,23], 12));
