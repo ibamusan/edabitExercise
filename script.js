@@ -452,3 +452,11 @@ function returnIndexOf(arr, str){
 }
 
 console.log(returnIndexOf([3,6,8,12,23], 12));
+
+// Create a function that finds the index of a given item.
+
+function findIndex(arr, num){
+  return arr.indexOf(num);
+}
+
+console.log(findIndex([3,5,6,7,8,9], 8));
