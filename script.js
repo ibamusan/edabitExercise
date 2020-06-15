@@ -460,3 +460,12 @@ function findIndex(arr, num){
 }
 
 console.log(findIndex([3,5,6,7,8,9], 8));
+
+
+// Create a function that takes a base number and an exponent number and returns the calculation.
+
+function calcPower(base,n){
+  return Math.pow(base, n)
+}
+
+console.log(calcPower(2,2));
