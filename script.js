@@ -469,3 +469,11 @@ function calcPower(base,n){
 }
 
 console.log(calcPower(2,2));
+
+// Write a function that takes a number n and returns the number of stacked boxes in a model n levels high, visible and invisible.
+
+function calcStack(n){
+  return (n*n);
+}
+
+console.log(calcStack(3));
