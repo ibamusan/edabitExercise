@@ -432,3 +432,14 @@ function returnLast(arr3){
 
 console.log(returnLast(['dog', 'cat', 'sheep', 'horse']));
 
+
+
+// Given two strings, firstName and lastName, return a single string in the format "last, first".
+
+function combStr(first,last){
+ 
+  return last + "," + first;
+
+  }
+
+console.log(combStr('goke','jide'));
