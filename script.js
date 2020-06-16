@@ -492,3 +492,16 @@ function checkUp(arr, n){
 
 console.log(checkUp([1,2,3,4], 2));
 console.log(checkUp(['ade', 'bukky', 'sofiyyah','Ayo'], 'Ayo'));
+
+
+// Create a function that takes a string (a random name). If the last character of the name is an "n", return true, otherwise return false.
+
+function checkStrN(str4){
+  if (str4[str4.length - 1] === 'n'){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(checkStrN('adtrehfjd'));
