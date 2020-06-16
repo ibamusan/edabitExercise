@@ -477,3 +477,18 @@ function calcStack(n){
 }
 
 console.log(calcStack(3));
+
+
+// Write a function to check if an array contains a particular number.
+
+function checkUp(arr, n){
+  var y = arr.indexOf(n);
+  if(y != -1){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(checkUp([1,2,3,4], 2));
+console.log(checkUp(['ade', 'bukky', 'sofiyyah','Ayo'], 'Ayo'));
