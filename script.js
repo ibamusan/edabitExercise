@@ -505,3 +505,12 @@ function checkStrN(str4){
 }
 
 console.log(checkStrN('adtrehfjd'));
+
+
+// Create a function that returns the number of arguments it was called with.
+
+function countstr(z){
+  return arguments.length;
+}
+
+console.log(countstr(true,false));
