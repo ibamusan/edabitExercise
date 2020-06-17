@@ -48,3 +48,14 @@ function getContainer(product) {
 console.log(getContainer());
 
 
+// Create a function that takes a name and returns a greeting in the form of a string. 
+// Don't use a normal function but use an "arrow function".
+
+const helloGreating = name => 'hello ' + name  + '!';
+
+console.log(helloGreating('ibrahim'));
+
+
+
+
+
