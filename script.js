@@ -519,8 +519,23 @@ console.log(countstr(true,false));
 // Create a function that takes an object argument sizes (contains width, length, height keys) and returns the volume of the box.
 
 function calcVol(size){
-  var size = {width : x, height: y, length: z};
+  var size = {width : x,
+     height: y, 
+     length: z};
   return size.width* size.height* size.length;
 }
 
 console.log((calcVol({width : 5, height: 5, length: 1})));
+
+
+
+// create a ffunction to add 1 
+
+function add(n) {
+  if (n <= 1){return 1;
+  }else{
+    return n + add(n - 1);
+  }
+}
+
+console.log(add(5));
