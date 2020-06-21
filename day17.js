@@ -77,3 +77,30 @@ name: "ade",
 population: "234788",
 continent:"african",
 }));
+
+
+function FirstFactorial(num) { 
+
+  // code goes here  
+  if (num < 0) return NaN;
+  return (num > 1) ? FirstFactorial(num - 1) * num : 1; 
+         
+}
+   
+console.log(FirstFactorial(5));
+
+
+
+
+//Create a function which returns the total of all odd numbers up to and including n. n will be given as an odd number.
+
+function addOdd(n) {
+	if(n === 1){
+		return 1
+	}else {
+		return n + addOdd(n - 2)
+	} 
+  
+}
+
+console.log(addOdd(20));
