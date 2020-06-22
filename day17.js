@@ -113,3 +113,16 @@ function joinString(name){
 }
 
 console.log(joinString("Awolowo"));
+
+
+
+//Create a function which validates whether a given number exists, and could represent a real life quantity. Inputs will be given as a string.
+
+function validStrNumber(n) {
+	if (isNaN("n")){
+		return true;
+	}else{
+		return false;
+	}
+}
+
