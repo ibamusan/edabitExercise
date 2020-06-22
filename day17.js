@@ -103,4 +103,13 @@ function addOdd(n) {
   
 }
 
-console.log(addOdd(20));
+console.log(addOdd(91));
+
+
+// Creates a function that takes a string and returns the concatenated first and last character.
+
+function joinString(name){
+	return name.charAt(0) + name.charAt(name.length - 1);
+}
+
+console.log(joinString("Awolowo"));
