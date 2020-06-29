@@ -21,3 +21,7 @@ function findSindex(arr, n){
 }
 
 console.log(findSindex([1,2,3,4,5], 4));
+
+
+
+
