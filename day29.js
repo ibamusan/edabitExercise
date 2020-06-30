@@ -9,3 +9,13 @@ function returnStrg(el){
 
 var y = returnStrg("today");
 y("I am having a good");
+
+
+
+// Create a function that takes in a word and determines whether or not it is plural. A plural word is one that ends in "s".
+
+function isPlural(word) {
+	return word.endsWith("s");
+}
+
+console.log(isPlural("girls"))
