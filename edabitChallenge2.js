@@ -4,4 +4,4 @@ function convertArraytoString(arr){
   return arr.join("")
 }
 
-console.log(convertArraytoString([1,2,3,4,5,6]));
+console.log(convertArraytoString([1,2,3,4,5,6,7]));
