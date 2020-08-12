@@ -1,12 +1,3 @@
-// Write a function that returns the string "something" joined with a space " " and the given argument a.
-
-function giveMesomething(a){
-  return "something " + a;
-}
-
-console.log(giveMesomething("good is better"));
-
-
 // Create a function that takes an array of numbers or letters and returns a string.
 
 function convertArraytoString(arr){
