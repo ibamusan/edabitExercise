@@ -5,3 +5,12 @@ function giveMesomething(a){
 }
 
 console.log(giveMesomething("good is better"));
+
+// Create a function that takes voltage and current and returns the calculated power.
+
+function calcPower(I,V){
+  return I*V;
+}
+
+console.log(calcPower(4,8));
+console.log(calcPower(10,9));
