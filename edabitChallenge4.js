@@ -37,3 +37,17 @@ console.log(inchesToFt(1));
   }
 
 //its just to fix the code, its has bug on the edabite website but fix here.
+
+
+
+// Create a function that calculates the chance of being an imposter. 
+// The formula for the chances of being an imposter is 100 × (i / p) where i is the imposter count and p is the player count. 
+// Make sure to round the value to the nearest integer and return the value as a percentage.
+
+function calcImposter(i,p){
+  let y = 100 * (i/p);
+  return Math.round(y) + "%";
+
+}
+
+console.log(calcImposter(4,7));
