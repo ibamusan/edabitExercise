@@ -25,3 +25,24 @@ function isEven(n) {
 }
 
 console.log(isEven(231));
+
+
+// Write a template string according to the following example:
+const a = "John";
+const b = "Joe";
+const c = "Jack";
+// const template = "your template string" ➞ "Their names were:  John,  Joe  and  Jack."
+
+const nameTemplate = `Their names were: ${a}, ${b} and ${c}`;
+
+console.log(nameTemplate);
+
+function format(a, b, c) {
+	// the result string must give: "Their names were: a, b and c."
+		const template =  `Their names were ${a}, ${b} and ${c}.`;
+		return template
+	}
+
+	console.log(format('John', 'Joel','Babel'));
+
+	
